@@ -1,0 +1,417 @@
+{
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "seed": 20261103,
+  "status": "all deterministic assertions passed",
+  "native_noncommuting_example": {
+    "parameters": {
+      "t": 0.4,
+      "omega": 0.27,
+      "H0_X_coefficient": 0.5,
+      "H1_Z_coefficient": 0.65
+    },
+    "commutator_frobenius_norm": 0.9192388155425119,
+    "coherence_c": {
+      "real": 0.9471265187303647,
+      "imag": 0.0
+    },
+    "uniform_coherence_distance_bound": 0.458935118533046,
+    "hidden_channel_eigenvalues": [
+      {
+        "real": 0.9191927614961873,
+        "imag": -0.3144121326429763
+      },
+      {
+        "real": 0.9191927614961872,
+        "imag": 0.3144121326429764
+      },
+      {
+        "real": 0.9999999999999999,
+        "imag": -1.981317034285788e-17
+      },
+      {
+        "real": 0.9504946506881592,
+        "imag": 3.878159062639908e-17
+      }
+    ],
+    "nontrivial_spectral_radius": 0.97147842072796,
+    "lag_one_complex_covariance": {
+      "real": 0.09773424623363502,
+      "imag": 0.0
+    },
+    "iid_complex_variance": 3.1029513575177,
+    "asymptotic_complex_variance": 3.372015250314819,
+    "linearized_local_estimator_variance_coefficient": 15.809231136829705,
+    "finite_N_exact_moments": [
+      {
+        "N": 64,
+        "stationary_variance_over_N": 3.321975112904859,
+        "nonstationary_centered_second_over_N": 3.321975112904852,
+        "nonstationary_mean_bias": {
+          "real": 0.00182962975000045,
+          "imag": 0.016875098257909324
+        }
+      },
+      {
+        "N": 256,
+        "stationary_variance_over_N": 3.3582862483330302,
+        "nonstationary_centered_second_over_N": 3.3582862483335703,
+        "nonstationary_mean_bias": {
+          "real": 0.00042457300289178157,
+          "imag": 0.003915934981962896
+        }
+      },
+      {
+        "N": 1024,
+        "stationary_variance_over_N": 3.3685821949510455,
+        "nonstationary_centered_second_over_N": 3.368582194952978,
+        "nonstationary_mean_bias": {
+          "real": 0.00010609165656427777,
+          "imag": 0.0009785078819750104
+        }
+      },
+      {
+        "N": 4096,
+        "stationary_variance_over_N": 3.371156988743678,
+        "nonstationary_centered_second_over_N": 3.3711569887755104,
+        "nonstationary_mean_bias": {
+          "real": 2.6522913586179975e-05,
+          "imag": 0.0002446269705854154
+        }
+      },
+      {
+        "N": 16384,
+        "stationary_variance_over_N": 3.371800721553882,
+        "nonstationary_centered_second_over_N": 3.371800721703039,
+        "nonstationary_mean_bias": {
+          "real": 6.6307261994413835e-06,
+          "imag": 6.115674303325269e-05
+        }
+      }
+    ],
+    "residuals": {
+      "analytic_c": 0.0,
+      "kraus_completeness": 4.010737309079535e-16,
+      "averaged_channel": 4.314386638072229e-16,
+      "score_map_sign": 2.97685826948677e-16,
+      "second_score_map": 0.0,
+      "stationarity": 1.247633381642104e-16,
+      "parameter_independence": 3.748207311116677e-16,
+      "full_unitary_partial_trace": 2.5629605958091095e-16,
+      "enumerated_mass": 9.992007221626409e-16,
+      "enumerated_first_moment": 8.95090418262362e-16,
+      "enumerated_second_moment": 0.0
+    }
+  },
+  "native_dissipative_example": {
+    "parameters": {
+      "t": 0.4,
+      "omega": 0.27,
+      "gamma": 0.2
+    },
+    "coherence_c": {
+      "real": 0.9498276886303852,
+      "imag": 0.0
+    },
+    "uniform_response_distance_bound": 0.3009281898036875,
+    "analytic_uniform_response_distance_bound": 0.32802438933713457,
+    "hidden_channel_eigenvalues": [
+      {
+        "real": 0.8508989195703717,
+        "imag": -0.28732647089654284
+      },
+      {
+        "real": 0.8508989195703718,
+        "imag": 0.2873264708965429
+      },
+      {
+        "real": 0.9999999999999984,
+        "imag": 9.870047484695361e-17
+      },
+      {
+        "real": 0.8073920266252625,
+        "imag": 4.8569938857845697e-17
+      }
+    ],
+    "nontrivial_spectral_radius": 0.898101036745804,
+    "iid_complex_variance": 3.09782736191106,
+    "asymptotic_complex_variance": 3.1486084591514087,
+    "finite_N_exact_moments": [
+      {
+        "N": 64,
+        "stationary_variance_over_N": 3.1680342242267443
+      },
+      {
+        "N": 256,
+        "stationary_variance_over_N": 3.153465316860604
+      },
+      {
+        "N": 1024,
+        "stationary_variance_over_N": 3.149822674647794
+      },
+      {
+        "N": 4096,
+        "stationary_variance_over_N": 3.1489120302335323
+      }
+    ],
+    "residuals": {
+      "full_lindblad_vs_population_blocks": 1.9953586795762823e-15,
+      "full_lindblad_vs_coherence_block": 2.294695678920858e-15,
+      "stationarity": 8.266975520389112e-16,
+      "trace_preservation": 1.6507774448769513e-15,
+      "second_score_map": 0.0,
+      "parameter_independence": 5.612045202849581e-16,
+      "enumerated_first_moment": 8.326672684688674e-17,
+      "enumerated_second_moment": 7.105427357601002e-15
+    }
+  },
+  "reducible_and_noiseless_examples": {
+    "sector_weight": 0.35,
+    "sector_hamiltonian_shift": 0.9,
+    "sector_coefficients": [
+      {
+        "real": 0.9471265187303647,
+        "imag": 0.0
+      },
+      {
+        "real": 0.8864127005008884,
+        "imag": -0.3336482682002444
+      }
+    ],
+    "ordinary_mean_variance_limit": 0.026164168620822964,
+    "exact_moment_rows": [
+      {
+        "N": 64,
+        "ordinary_mean_variance": 0.07807002975996535,
+        "N_times_sector_centered_mean_second": 3.321975112905162
+      },
+      {
+        "N": 256,
+        "ordinary_mean_variance": 0.03928247427839082,
+        "N_times_sector_centered_mean_second": 3.3582862483380835
+      },
+      {
+        "N": 1024,
+        "ordinary_mean_variance": 0.02945379967063355,
+        "N_times_sector_centered_mean_second": 3.3685821950166486
+      },
+      {
+        "N": 4096,
+        "ordinary_mean_variance": 0.026987204995263192,
+        "N_times_sector_centered_mean_second": 3.3711569898813423
+      },
+      {
+        "N": 16384,
+        "ordinary_mean_variance": 0.026369967005654305,
+        "N_times_sector_centered_mean_second": 3.371800739894388
+      }
+    ],
+    "coherent_sector_record_residual": 2.1679146682412843e-17,
+    "noiseless_spectator_record_residual": 0.0
+  },
+  "transient_absorption_example": {
+    "absorption_probability_per_round": 0.23,
+    "sector_0_absorption_weight": 0.35,
+    "initial_state": "entirely transient",
+    "expected_large_N_limit": 3.19,
+    "finite_N_rows": [
+      {
+        "N": 16,
+        "N_times_absorption_weighted_centered_mean_second": 3.452906755729466
+      },
+      {
+        "N": 64,
+        "N_times_absorption_weighted_centered_mean_second": 3.2610309525302696
+      },
+      {
+        "N": 256,
+        "N_times_absorption_weighted_centered_mean_second": 3.2077577541169404
+      },
+      {
+        "N": 1024,
+        "N_times_absorption_weighted_centered_mean_second": 3.1944394384216253
+      },
+      {
+        "N": 4096,
+        "N_times_absorption_weighted_centered_mean_second": 3.1911098578286783
+      }
+    ],
+    "residuals": {
+      "harmonic_absorption_effects": 2.482534153247273e-16,
+      "effects_sum_to_identity": 0.0
+    }
+  },
+  "finite_recovery_normal_form": {
+    "omega": 0.37,
+    "fixed_total_exposure": 0.6,
+    "residuals": {
+      "recovery_trace_preservation": 0.0,
+      "recovery_idempotence": 0.0,
+      "code_fixed": 0.0,
+      "full_vs_normal_form_generator": 1.1274368112207335e-16,
+      "effective_generator_trace_preservation": 0.0
+    },
+    "finite_recovery_rows": [
+      {
+        "recoveries": 4,
+        "spacing": 0.15,
+        "superoperator_frobenius_error": 0.1376858243471306,
+        "normalized_choi_trace_distance": 0.02893839877288401,
+        "minimum_normalized_choi_eigenvalue": -1.26863956285004e-16,
+        "trace_preservation_residual": 4.135941849010569e-16
+      },
+      {
+        "recoveries": 8,
+        "spacing": 0.075,
+        "superoperator_frobenius_error": 0.06963561192966057,
+        "normalized_choi_trace_distance": 0.01466111566878064,
+        "minimum_normalized_choi_eigenvalue": -1.7247684769814115e-50,
+        "trace_preservation_residual": 6.527403128298655e-16
+      },
+      {
+        "recoveries": 16,
+        "spacing": 0.0375,
+        "superoperator_frobenius_error": 0.035031756453784625,
+        "normalized_choi_trace_distance": 0.007382306236006638,
+        "minimum_normalized_choi_eigenvalue": -4.992453648628372e-18,
+        "trace_preservation_residual": 1.2283092986647872e-15
+      },
+      {
+        "recoveries": 32,
+        "spacing": 0.01875,
+        "superoperator_frobenius_error": 0.017571387038109627,
+        "normalized_choi_trace_distance": 0.0037045696663687215,
+        "minimum_normalized_choi_eigenvalue": -1.4437681644135842e-18,
+        "trace_preservation_residual": 7.957075530662808e-15
+      },
+      {
+        "recoveries": 64,
+        "spacing": 0.009375,
+        "superoperator_frobenius_error": 0.008799826829564716,
+        "normalized_choi_trace_distance": 0.0018556995882334547,
+        "minimum_normalized_choi_eigenvalue": -1.4123861578211282e-16,
+        "trace_preservation_residual": 8.718216677273151e-15
+      }
+    ],
+    "interpretation": "Finite-dimensional convergence check, not a proof of a uniform diamond-norm bound."
+  },
+  "estimator_checks": {
+    "noiseless_arc_inversion_residual": 8.886119947416683e-17,
+    "zero_empirical_mean_estimate": -0.2
+  },
+  "native_monte_carlo": {
+    "seed": 20261103,
+    "trajectories": 2048,
+    "omega": 0.27,
+    "interval": [
+      -0.8,
+      0.8
+    ],
+    "max_probability_normalization_error": 1.3322676295501878e-15,
+    "rows": [
+      {
+        "N": 128,
+        "mse": 0.11200927875232737,
+        "mse_standard_error": 0.003293472994012078,
+        "N_times_mse": 14.337187680297903,
+        "N_times_sector_centered_score_second": 3.3536190510426147,
+        "empirical_score_mean": {
+          "real": 0.942626953125,
+          "imag": -0.0913848876953125
+        }
+      },
+      {
+        "N": 512,
+        "mse": 0.030114362558866355,
+        "mse_standard_error": 0.0009748163799668654,
+        "N_times_mse": 15.418553630139574,
+        "N_times_sector_centered_score_second": 3.3266624702830194,
+        "empirical_score_mean": {
+          "real": 0.9418163299560547,
+          "imag": -0.09978675842285156
+        }
+      },
+      {
+        "N": 2048,
+        "mse": 0.007568169498130607,
+        "mse_standard_error": 0.00024058549627676456,
+        "N_times_mse": 15.499611132171482,
+        "N_times_sector_centered_score_second": 3.3692553231909534,
+        "empirical_score_mean": {
+          "real": 0.9412107467651367,
+          "imag": -0.10222721099853516
+        }
+      },
+      {
+        "N": 8192,
+        "mse": 0.0018675526983849304,
+        "mse_standard_error": 5.6411277053100336e-05,
+        "N_times_mse": 15.29899170516935,
+        "N_times_sector_centered_score_second": 3.314535899601311,
+        "empirical_score_mean": {
+          "real": 0.9413633346557617,
+          "imag": -0.10255599021911621
+        }
+      }
+    ]
+  },
+  "reducible_monte_carlo": {
+    "seed": 20261105,
+    "trajectories": 1024,
+    "omega": 0.07,
+    "interval": [
+      -0.2,
+      0.2
+    ],
+    "max_probability_normalization_error": 1.3322676295501878e-15,
+    "rows": [
+      {
+        "N": 128,
+        "mse": 0.02962194259526814,
+        "mse_standard_error": 0.0008406051406378472,
+        "N_times_mse": 3.7916086521943217,
+        "N_times_sector_centered_score_second": 3.3859308488943034,
+        "empirical_score_mean": {
+          "real": 0.9048614501953125,
+          "imag": -0.2310943603515625
+        }
+      },
+      {
+        "N": 512,
+        "mse": 0.017228829702801183,
+        "mse_standard_error": 0.0006335789308939472,
+        "N_times_mse": 8.821160807834206,
+        "N_times_sector_centered_score_second": 3.197161050789508,
+        "empirical_score_mean": {
+          "real": 0.9035301208496094,
+          "imag": -0.23499679565429688
+        }
+      },
+      {
+        "N": 2048,
+        "mse": 0.006870266315120635,
+        "mse_standard_error": 0.00027756290492860587,
+        "N_times_mse": 14.07030541336706,
+        "N_times_sector_centered_score_second": 3.3312375971835317,
+        "empirical_score_mean": {
+          "real": 0.9022722244262695,
+          "imag": -0.23863506317138672
+        }
+      },
+      {
+        "N": 8192,
+        "mse": 0.001964997498802931,
+        "mse_standard_error": 8.589157438934745e-05,
+        "N_times_mse": 16.09725951019361,
+        "N_times_sector_centered_score_second": 3.4503047512450107,
+        "empirical_score_mean": {
+          "real": 0.9015388488769531,
+          "imag": -0.2402782440185547
+        }
+      }
+    ]
+  }
+}
