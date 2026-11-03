@@ -442,7 +442,7 @@ Expand the squared modulus of the sum, use the covariance bound and sum over the
 \sum_{n=1}^{N}(Z_n-m_J)
 \right|^2
 &\le4R^2N
-+2sB^2M\sum_{i<k}q^{k-i-1}\\
++2sB^2M\sum_{i\lt k}q^{k-i-1}\\[2pt]
 &\le
 \left(4R^2+\frac{2sB^2M}{1-q}\right)N.
 \end{aligned}
