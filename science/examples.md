@@ -116,7 +116,7 @@ $$
 
 The finite-length moments are computed by exact operator recursion, without sampling or replacing the bath by $\tau$ after a round:
 
-| $N$ | $\mathbb E|S_N-N\mu|^2/N$, stationary start | Same quantity, initial $|{+y}\rangle$ bath |
+| $N$ | $\mathbb E\lvert S_N-N\mu\rvert^2/N$, stationary start | Same quantity, initial $\lvert{+y}\rangle$ bath |
 |---:|---:|---:|
 | 64 | 3.32197511 | 3.32197511 |
 | 256 | 3.35828625 | 3.35828625 |
@@ -194,11 +194,11 @@ Both population semigroups have $I/2$ as their unique stationary state. For exam
 |---|---:|
 | $c=\operatorname{Tr}\mathcal C_t(I/2)$ | 0.9498276886303852 |
 | Largest nontrivial eigenvalue modulus of $\mathcal T$ | 0.898101036745804 |
-| Uniform response-distance bound $\|F-I\|$, $\operatorname{Tr}\mathcal C_t(\sigma)=\operatorname{Tr}(F\sigma)$ | 0.3009281898036875 |
-| Analytic uniform response-distance bound $t\|H_0-H_1\|$ | 0.3280243893371345 |
+| Uniform response-distance bound $\lVert F-I\rVert$, $\operatorname{Tr}\mathcal C_t(\sigma)=\operatorname{Tr}(F\sigma)$ | 0.3009281898036875 |
+| Analytic uniform response-distance bound $t\lVert H_0-H_1\rVert$ | 0.3280243893371345 |
 | Independent-record complex variance | 3.09782736191106 |
 | Actual asymptotic complex variance | 3.1486084591514087 |
-| Exact $\mathbb E|S_N-N\mu|^2/N$ at $N=4,096$ | 3.1489120302335323 |
+| Exact $\mathbb E\lvert S_N-N\mu\rvert^2/N$ at $N=4,096$ | 3.1489120302335323 |
 
 The uniform nonvanishing response also has an analytic proof. A coherence map is an off-diagonal corner of a block-preserving channel and satisfies $\|\mathcal C_s(A)\|_1\le\|A\|_1$. This follows by applying trace-norm contraction of the full channel to the Hermitian block matrix with off-diagonal entries $A$ and $A^\dagger$. Moreover,
 

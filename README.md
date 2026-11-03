@@ -45,6 +45,12 @@ Start with the [scientific overview](science/README.md), or follow the proof in 
 
 The [related-work account](references/related_work.md) and [bibliography](references/references.bib) identify the sources and the limits of the comparison.
 
+## Learn the project
+
+The learning route uses **Wiseman and Milburn, _Quantum Measurement and Control_ (2010)** as its single educational anchor. Start with the [learning overview](learning/README.md), then use the [source-to-project bridge](learning/ANCHOR.md) and [30-milestone map](learning/MILESTONES.md). The map moves from measurement and open-system foundations through the construction, correlated-record proof, finite-control cost, and global identifiability boundary.
+
+For a question-based route to the scientific statements, proofs, examples, and reproduction commands, see [llms.txt](llms.txt).
+
 ## Reproduce the finite checks
 
 From the repository root:

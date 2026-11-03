@@ -4,6 +4,10 @@ The scientific claim is the [controlled local precision theorem](../science/mode
 
 The proof combines established channel structure and metrological control ideas. Its contribution depends on the guarantee that every output-visible stationary sector retains a signal response, together with a local inversion that handles the unknown realized sector. The channel decomposition, absorption construction, and Zeno principle have prior sources.
 
+## Educational foundation
+
+Howard M. Wiseman and Gerard J. Milburn, [*Quantum Measurement and Control*](https://doi.org/10.1017/CBO9780511813948), Cambridge University Press (2010), is the single educational anchor. Its measurement, estimation, open-system and control topics support the [learning bridge](../learning/ANCHOR.md). The specialized structural results and this project's particular risk and resource proofs are identified separately below.
+
 ## Closest metrology result
 
 **[MCLZ25]** Zachary Mann, Ningping Cao, Raymond Laflamme, and Sisi Zhou, [*Quantum Error-Corrected Non-Markovian Metrology*](https://doi.org/10.1103/wfyl-wtz3), PRX Quantum **6**, 030321 (2025); [arXiv:2503.07745v2](https://arxiv.org/html/2503.07745v2).

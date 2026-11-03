@@ -1,0 +1,39 @@
+# Quantum Sensing Without Bath Resets
+
+> Local-uniform frequency-estimation risk for a known finite joint Lindblad model with a probe-only signal and a persistent, unreset environment.
+
+The initial environment state is arbitrary and unknown. The model matrices are known. The calibration interval is fixed and local. The general protocol has a sufficient O(N^3) ideal recovery/reset count, plus O(N) preparations and readouts; native logical-dephasing models admit fixed cadence. Read these assumptions with the theorem.
+
+## Understand the scientific story
+
+- [Repository overview](README.md): Main result, mechanism, resource distinctions and entry routes.
+- [Scientific reading map](science/README.md): How control, statistics and identifiability fit together.
+- [Model and results](science/model_and_results.md): Exact task, achievability theorem, native corollary and physical interpretation.
+
+## Study the foundations and reconstruct the work
+
+- [Learning route](learning/README.md): The path from the physical experiment to its proof and resource account.
+- [Anchor and bridge](learning/ANCHOR.md): Wiseman and Milburn, Quantum Measurement and Control (2010); verified sections, notation, assumptions and project-specific additions.
+- [Thirty milestones](learning/MILESTONES.md): Exactly M01–M30; twelve background targets followed by eighteen narrative targets, with dependencies and source pointers.
+
+## Check the theorem and its limits
+
+- [Model and results](science/model_and_results.md): Read the known-model, probe-only, fixed-local-interval and ideal-control assumptions first.
+- [Control and resources](science/control_and_resources.md): Tagged recovery, logical dephasing, finite-channel approximation and complete-record risk transfer.
+- [Finite-memory statistics](science/finite_memory_statistics.md): Stationary algebra, invisible noiseless factors, harmonic absorption, correlated-score variance and explicit local estimator.
+- [Global ambiguity](science/global_ambiguity.md): A conserved hidden offset prevents wide-interval identification even under adaptive accessible controls.
+
+## Reproduce and interpret the finite checks
+
+- [Verification guide](verification/README.md): Commands, deterministic assertions, seeded diagnostics and their scope.
+- [Examples](science/examples.md): Noncommuting unitary and dissipative baths, conserved sectors, noiseless factors, transient absorption and finite recovery.
+- [Complete runner](verification/run_all.py): Runs the documented finite checks; the deterministic-only option overwrites default reports, as explained in the guide.
+- [Sensing report](results/sensing_checks.json): Algebra, exact moments and trajectory results.
+- [Control report](results/control_checks.json): Three-level conditional recovery and branch-basis checks.
+
+## Follow attribution
+
+- [Related work](references/related_work.md): Inherited ingredients, closest results, abstract-only comparison limits and distinction from the general plain prepare-and-measure conjecture.
+- [Bibliography](references/references.bib): Structured source metadata, including the sole educational anchor.
+
+The analytic proofs establish the general risk and diamond-norm bounds. Finite simulations support their tested identities and examples. The result does not optimize the recovery count or establish general performance with finite-duration noisy controls.
