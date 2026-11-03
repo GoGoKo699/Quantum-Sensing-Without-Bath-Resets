@@ -159,7 +159,7 @@ The effective generator arises from a rapid-recovery limit. The physical theorem
 \le\frac{Nt^2\Lambda^2}{m}e^{\Lambda t/m},
 ```
 
-where $`\Lambda`$ bounds the physical generator in diamond norm on the calibration interval. The comparison retains the conditional bath and the complete classical record, so it applies despite memory. Taking $`m=O(N^2)`$ makes record total variation $`O(1/N)`$. Because the estimator is clipped to a bounded interval, that record error changes squared risk by only $`O(1/N)`$.
+where $`\Lambda`$ bounds the physical generator in diamond norm on the calibration interval. The comparison retains the conditional bath and the complete classical record, so it applies despite memory. Taking $`m=\lceil aN^2\rceil`$, with a fixed positive model-dependent constant chosen from the control bound, makes record total variation $`O(1/N)`$. Because the estimator is clipped to a bounded interval, that record error changes squared risk by only $`O(1/N)`$.
 
 The resulting sufficient cost is $`O(N^3)`$ recovery/reset uses, an $`O(N^2)`$ recovery rate, and another $`O(N)`$ preparations and readouts. This is an explicit ideal-control resource account, with no claim of optimality or bounded recovery throughput. Models already in the required logical form need no intermediate recovery and admit a fixed cadence. See [Control and resources, Sections 5–8](../science/control_and_resources.md#5-a-uniform-finite-recovery-bound).
 
