@@ -1,0 +1,40 @@
+{
+  "seed": 20261103,
+  "dimensions": {
+    "environment": 2,
+    "probe": 3,
+    "tag": 2
+  },
+  "recovery_completeness_residual": 4.2217415554346753e-16,
+  "code_fixing_residual": 0.0,
+  "generator_identity_residual": 2.7766745188528433e-16,
+  "common_basis_code_coherence_output_norm": 0.0,
+  "finite_recovery_convergence": [
+    {
+      "microcycles": 4,
+      "hs_induced_error": 0.006717197785126775,
+      "m_times_error": 0.0268687911405071
+    },
+    {
+      "microcycles": 8,
+      "hs_induced_error": 0.0033594939703016397,
+      "m_times_error": 0.026875951762413117
+    },
+    {
+      "microcycles": 16,
+      "hs_induced_error": 0.0016799439179135305,
+      "m_times_error": 0.026879102686616488
+    },
+    {
+      "microcycles": 32,
+      "hs_induced_error": 0.0008400178289612375,
+      "m_times_error": 0.0268805705267596
+    },
+    {
+      "microcycles": 64,
+      "hs_induced_error": 0.00042001996096787666,
+      "m_times_error": 0.026881277501944106
+    }
+  ],
+  "norm_note": "Numerical finite-step errors use induced Hilbert--Schmidt norm, not diamond norm."
+}
