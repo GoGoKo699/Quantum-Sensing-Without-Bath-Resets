@@ -142,7 +142,7 @@ Dependencies refer to earlier milestone IDs. Sources distinguish **WM** foundati
 ### M16 — Signal in the response, parameter independence in the bath transition
 
 - **Central question:** How does the normal form separate the unknown phase from the averaged environmental evolution?
-- **Understanding target:** Distinguish population channels from the coherence transfer map; connect random X/Y readout to the response $e^{-i\omega\Delta g t}\operatorname{Tr}\mathcal C_t(\sigma)$ and to a parameter-independent averaged channel.
+- **Understanding target:** Distinguish population channels from the coherence transfer map; connect random X/Y readout to the response $`e^{-i\omega\Delta g t}\mathrm{Tr}\mathcal C_t(\sigma)`$ and to a parameter-independent averaged channel.
 - **Dependencies and story role:** M03, M06 and M15; supplies the precise instrument used by the statistics theorem.
 - **Conceptual connection:** Conditional outcomes reveal the signal while their ignored sum gives one common hidden channel for every parameter value.
 - **Sources:** [Control, §3: population and coherence blocks](../science/control_and_resources.md#population-and-coherence-blocks); [Statistics, §1: sensing instrument](../science/finite_memory_statistics.md#how-the-sensing-experiment-supplies-these-assumptions).
@@ -222,7 +222,7 @@ Dependencies refer to earlier milestone IDs. Sources distinguish **WM** foundati
 ### M26 — The full record carries a finite resource guarantee
 
 - **Central question:** Which control schedule keeps implementation error below the estimator's statistical error?
-- **Understanding target:** Combine record-channel telescoping with bounded-loss transfer; explain why a sufficient quadratic number of recoveries per round gives a cubic total count and preserves the $1/N$ squared-risk bound.
+- **Understanding target:** Combine record-channel telescoping with bounded-loss transfer; explain why a sufficient quadratic number of recoveries per round gives a cubic total count and preserves the $`1/N`$ squared-risk bound.
 - **Dependencies and story role:** M07–M08, M11, M24 and M25; assembles the implemented general theorem with its resource cost.
 - **Conceptual connection:** Statistical precision and control accuracy must be budgeted together across the same persistent bath realization.
 - **Sources:** [Control, §§5–7](../science/control_and_resources.md#the-complete-retained-record); [Model, Theorem A](../science/model_and_results.md#3-general-local-precision-theorem).

@@ -19,7 +19,7 @@ One may also add any fixed probe-only Lindblad generator $`\mathcal L_P`$:
 ```math
 \mathcal L_\omega(X)
 =-i[H_\omega,X]
-+(\operatorname{id}_E\otimes\mathcal L_P)(X).
++(\mathrm{id}_E\otimes\mathcal L_P)(X).
 ```
 
 For example, $`\mathcal L_P=\gamma\mathcal D[Z_P]`$ with $`\gamma>0`$ gives a genuinely dissipative instance. The argument does not depend on the strength or absence of this added noise.

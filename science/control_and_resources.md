@@ -83,12 +83,12 @@ Tracing out $`D`$ gives precisely $`\mathcal R`$. The discarded register carries
 
 ## 3. Exact form of the effective generator
 
-Write $`\mathcal J(X)=(I_E\otimes J)X(I_E\otimes J^\dagger)`$ for encoding. Let $`\mathcal D`$ decode operators supported on the code. Although this decoder is only defined on code-supported operators, the composite $`\mathcal D\circ(\operatorname{id}_E\otimes\mathcal R)`$ is a CPTP map on the full physical input space. The effective logical generator is
+Write $`\mathcal J(X)=(I_E\otimes J)X(I_E\otimes J^\dagger)`$ for encoding. Let $`\mathcal D`$ decode operators supported on the code. Although this decoder is only defined on code-supported operators, the composite $`\mathcal D\circ(\mathrm{id}_E\otimes\mathcal R)`$ is a CPTP map on the full physical input space. The effective logical generator is
 
 ```math
 \mathcal A_\omega
-=\mathcal D\circ(\operatorname{id}_E\otimes\mathcal R)
-\circ(\mathcal L_\omega\otimes\operatorname{id}_A)
+=\mathcal D\circ(\mathrm{id}_E\otimes\mathcal R)
+\circ(\mathcal L_\omega\otimes\mathrm{id}_A)
 \circ\mathcal J.
 ```
 
@@ -188,10 +188,10 @@ A conservative duration can be selected directly from the known matrices. Define
 Left and right multiplication bounds give $`\|\mathcal A_{01}\|_{1\to1}\le\beta`$, hence
 
 ```math
-\|C_t-\operatorname{id}\|_{1\to1}\le e^{\beta t}-1.
+\|C_t-\mathrm{id}\|_{1\to1}\le e^{\beta t}-1.
 ```
 
-For $`\beta>0`$, taking $`t=\log(4/3)/\beta`$ makes this at most $`1/3`$. If $`\beta=0`$, the coherence map is the identity and any positive fixed duration suffices. Thus every density operator $`\sigma`$ satisfies $`|\operatorname{Tr}C_t(\sigma)-1|<1/2`$. This is a sufficient choice; a model-specific response estimate can permit a larger duration, as in the examples. The duration is fixed before choosing the local calibration interval or the number of rounds.
+For $`\beta>0`$, taking $`t=\log(4/3)/\beta`$ makes this at most $`1/3`$. If $`\beta=0`$, the coherence map is the identity and any positive fixed duration suffices. Thus every density operator $`\sigma`$ satisfies $`|\mathrm{Tr}C_t(\sigma)-1|<1/2`$. This is a sufficient choice; a model-specific response estimate can permit a larger duration, as in the examples. The duration is fixed before choosing the local calibration interval or the number of rounds.
 
 ## 4. Relation to the earlier dephasing reduction
 
@@ -220,12 +220,12 @@ One sufficient choice is
 +2\sum_j\|L_j\|_\infty^2.
 ```
 
-Identity extensions do not alter the diamond norm. Encoding and the full composite $`\mathcal D\circ(\operatorname{id}_E\otimes\mathcal R)`$ are channels, so $`\|\mathcal A_\omega\|_\diamond\le\Lambda`$. These same channels contract the Taylor remainder below. One physical microcycle of duration $`h`$, viewed as a channel on $`EL`$, is
+Identity extensions do not alter the diamond norm. Encoding and the full composite $`\mathcal D\circ(\mathrm{id}_E\otimes\mathcal R)`$ are channels, so $`\|\mathcal A_\omega\|_\diamond\le\Lambda`$. These same channels contract the Taylor remainder below. One physical microcycle of duration $`h`$, viewed as a channel on $`EL`$, is
 
 ```math
 F_{\omega,h}
-=\mathcal D\circ(\operatorname{id}_E\otimes\mathcal R)
-\circ e^{h(\mathcal L_\omega\otimes\operatorname{id}_A)}
+=\mathcal D\circ(\mathrm{id}_E\otimes\mathcal R)
+\circ e^{h(\mathcal L_\omega\otimes\mathrm{id}_A)}
 \circ\mathcal J.
 ```
 

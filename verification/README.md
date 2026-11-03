@@ -50,11 +50,11 @@ The programs use fixed seeds. The estimator receives the classical record and mo
 
 ## Representative checked values
 
-The native unitary model has stationary coherence $c=0.9471265187303647$. Its actual asymptotic complex-score variance is $3.372015250314819$, whereas treating observations as independent gives $3.1029513575177$. The dissipative variant has coherence $0.9498276886303852$ and actual variance $3.1486084591514087$.
+The native unitary model has stationary coherence $`c=0.9471265187303647`$. Its actual asymptotic complex-score variance is $`3.372015250314819`$, whereas treating observations as independent gives $`3.1029513575177`$. The dissipative variant has coherence $`0.9498276886303852`$ and actual variance $`3.1486084591514087`$.
 
-The generic qubit recovery generator agrees with the independently assembled compressed generator to approximately $1.1\times10^{-16}$. The three-level probe calculation has generator discrepancy approximately $2.8\times10^{-16}$ and recovery-completeness discrepancy approximately $4.2\times10^{-16}$. These numbers are numerical residuals for the specified models.
+The generic qubit recovery generator agrees with the independently assembled compressed generator to approximately $`1.1\times10^{-16}`$. The three-level probe calculation has generator discrepancy approximately $`2.8\times10^{-16}`$ and recovery-completeness discrepancy approximately $`4.2\times10^{-16}`$. These numbers are numerical residuals for the specified models.
 
-The seeded unitary example gives $N\times\mathrm{MSE}\approx15.30$ at $N=8192$, consistent with the independently computed local variance scale. Monte Carlo rows have empirical standard errors and are never used as pass/fail thresholds. They demonstrate the behavior of the implementation; the [finite-memory proof](../science/finite_memory_statistics.md) establishes the general risk bound.
+The seeded unitary example gives $`N\times\mathrm{MSE}\approx15.30`$ at $`N=8192`$, consistent with the independently computed local variance scale. Monte Carlo rows have empirical standard errors and are never used as pass/fail thresholds. They demonstrate the behavior of the implementation; the [finite-memory proof](../science/finite_memory_statistics.md) establishes the general risk bound.
 
 ## Norm and scope distinctions
 
