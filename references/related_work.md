@@ -1,8 +1,12 @@
 # Related work and attribution
 
-The scientific claim is the [controlled local precision theorem](../science/model_and_results.md): a known finite hidden-environment Lindblad model with a probe-only nontrivial signal admits an explicit estimator with uniform local mean-squared error $O(1/N)$, without environmental reset or an ergodicity assumption. The general implementation uses a sufficient $O(N^3)$ ideal recovery count. A native logical-dephasing subclass works at a fixed prepare/readout cadence.
+The scientific claim is the [controlled local precision theorem](../science/model_and_results.md): a known finite hidden-environment Lindblad model with a probe-only nontrivial signal admits an explicit estimator with uniform local mean-squared error $`O(1/N)`$, without environmental reset or an ergodicity assumption. The general implementation uses a sufficient $`O(N^3)`$ ideal recovery count. A native logical-dephasing subclass works at a fixed prepare/readout cadence.
 
 The proof combines established channel structure and metrological control ideas. Its contribution depends on the guarantee that every output-visible stationary sector retains a signal response, together with a local inversion that handles the unknown realized sector. The channel decomposition, absorption construction, and Zeno principle have prior sources.
+
+## Educational foundation
+
+Howard M. Wiseman and Gerard J. Milburn, [*Quantum Measurement and Control*](https://doi.org/10.1017/CBO9780511813948), Cambridge University Press (2010), is the single educational anchor. Its measurement, estimation, open-system and control topics support the [learning bridge](../learning/ANCHOR.md). The specialized structural results and this project's particular risk and resource proofs are identified separately below.
 
 ## Closest metrology result
 

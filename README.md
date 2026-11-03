@@ -4,22 +4,22 @@ Can a finite, inaccessible environment prevent repeated sensing from attaining s
 
 For a known finite-dimensional joint Lindblad model, with an unknown frequency acting only on the probe, an explicit protocol gives local-uniform mean-squared error
 
-$$
+```math
 \sup_{\omega\in I,\rho_E}
 \mathbb E[(\widehat\omega_N-\omega)^2]
 \le\frac{C}{N}.
-$$
+```
 
-The initial environmental state is arbitrary and unknown. The environment can have several stationary sectors, noiseless quantum subsystems, and noncommuting dynamics. It is neither directly controlled nor re-prepared. The calibration interval $I$ is fixed as $N$ grows, and the exposure never exceeds $Nt$ for a fixed sensing duration $t$.
+The initial environmental state is arbitrary and unknown. The environment can have several stationary sectors, noiseless quantum subsystems, and noncommuting dynamics. It is neither directly controlled nor re-prepared. The calibration interval $`I`$ is fixed as $`N`$ grows, and the exposure never exceeds $`Nt`$ for a fixed sensing duration $`t`$.
 
-The general construction uses ideal local recoveries at an increasing rate. Their sufficient count is $O(N^3)$, plus $O(N)$ probe preparations and readouts. A model whose dynamics are already diagonal on the accessible logical qubit needs no intermediate recovery and permits a fixed prepare-and-measure cadence.
+The general construction uses ideal local recoveries at an increasing rate. Their sufficient count is $`O(N^3)`$, plus $`O(N)`$ probe preparations and readouts. A model whose dynamics are already diagonal on the accessible logical qubit needs no intermediate recovery and permits a fixed prepare-and-measure cadence.
 
 ## Results and their scope
 
 | Result | Operational consequence | Essential scope |
 |---|---|---|
-| [General local precision theorem](science/model_and_results.md#3-general-local-precision-theorem) | Squared risk at most $C/N$ without an environmental reset or equilibration assumption | Known finite joint Lindblad model; probe-only signal; ideal controls; fixed local interval |
-| [Finite recovery implementation](science/control_and_resources.md#5-a-uniform-finite-recovery-bound) | The complete correlated record is approximated accurately enough to preserve the risk bound | Sufficient $O(N^3)$ recovery/reset uses and $O(N^2)$ recovery rate |
+| [General local precision theorem](science/model_and_results.md#3-general-local-precision-theorem) | Squared risk at most $`C/N`$ without an environmental reset or equilibration assumption | Known finite joint Lindblad model; probe-only signal; ideal controls; fixed local interval |
+| [Finite recovery implementation](science/control_and_resources.md#5-a-uniform-finite-recovery-bound) | The complete correlated record is approximated accurately enough to preserve the risk bound | Sufficient $`O(N^3)`$ recovery/reset uses and $`O(N^2)`$ recovery rate |
 | [Native dephasing corollary](science/model_and_results.md#4-a-fixed-cadence-subclass) | Fixed-cadence preparation and quadrature readout suffice | Logical diagonality; environmental blocks can be noncommuting |
 | [Global ambiguity](science/global_ambiguity.md) | Some wide intervals have a positive risk floor at every exposure | A conserved hidden frequency shift; the obstruction holds even with a known bath state |
 
@@ -44,6 +44,12 @@ Start with the [scientific overview](science/README.md), or follow the proof in 
 5. [The global identifiability obstruction](science/global_ambiguity.md).
 
 The [related-work account](references/related_work.md) and [bibliography](references/references.bib) identify the sources and the limits of the comparison.
+
+## Learn the project
+
+The learning route uses **Wiseman and Milburn, _Quantum Measurement and Control_ (2010)** as its single educational anchor. Start with the [learning overview](learning/README.md), then use the [source-to-project bridge](learning/ANCHOR.md) and [30-milestone map](learning/MILESTONES.md). The map moves from measurement and open-system foundations through the construction, correlated-record proof, finite-control cost, and global identifiability boundary.
+
+For a question-based route to the scientific statements, proofs, examples, and reproduction commands, see [llms.txt](llms.txt).
 
 ## Reproduce the finite checks
 

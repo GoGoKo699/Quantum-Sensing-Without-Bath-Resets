@@ -1,6 +1,6 @@
 # Scientific account
 
-The probe is repeatedly prepared and measured, while the same inaccessible environment persists. The scientific question is whether this finite memory can force local estimation to converge more slowly than shot-noise order. Under the stated ideal-control model, the answer is no: a concrete protocol attains squared risk at most $C/N$. Its general finite implementation pays a growing recovery cost, and a global frequency ambiguity shows why the local calibration promise is necessary.
+The probe is repeatedly prepared and measured, while the same inaccessible environment persists. The scientific question is whether this finite memory can force local estimation to converge more slowly than shot-noise order. Under the stated ideal-control model, the answer is no: a concrete protocol attains squared risk at most $`C/N`$. Its general finite implementation pays a growing recovery cost, and a global frequency ambiguity shows why the local calibration promise is necessary.
 
 ## Reading route
 
